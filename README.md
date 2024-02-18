@@ -1,9 +1,11 @@
 # Bertram Capital Lounge
 
 ## Overview
-Bertram Capital lounge app is an app for the Employee of Bertram Capital which maintains the whole budget for their coffee expenditure. This program is created as apython project in GGUI  which is connected to 
+BertramCapital lounge app is an app for the Employee of Bertram Capital which maintains the whole budget for their coffee expenditure. This program is created as apython project in GGUI  which is connected to 
 SQLLite3 database which stores all the data of the user expenditure.  we have use tkinter for graphic user interface
 
+## VIDEO LINK 
+1.  youtube link - https://youtu.be/IGyMuk2z-k0
 
 ## Assumption
 1. There are seven employees for which the app is created
