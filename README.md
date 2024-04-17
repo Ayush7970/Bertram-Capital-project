@@ -38,10 +38,10 @@ Improved financial transparency among employees regarding coffee purchases.
 Potential upgrades for personalization and adding more beverage options.
 Continuous refinement based on ongoing user feedback.
 ## Prerequisites
+- Python 3.x
+- SQLite3
+- Tkinter
 
-1.Python 3.x
-2.SQLite3
-3.Tkinter
 ## How to Run the App
 
 Ensure all prerequisites are installed.
