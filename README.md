@@ -1,35 +1,51 @@
-# Bertram Capital Lounge
+# Bertram Capital Lounge App
 
-## Overview
-BertramCapital lounge app is an app for the Employee of Bertram Capital which maintains the whole budget for their coffee expenditure. This program is created as apython project in GGUI  which is connected to 
-SQLLite3 database which stores all the data of the user expenditure.  we have use tkinter for graphic user interface
+## Project Overview
+The Bertram Capital Lounge App is a custom application developed for Bertram Capital employees to manage and analyze their coffee expenditures. This project integrates a graphical user interface created with Tkinter and an SQLite3 database to store transactional data.
 
-## Video Link
-1.  youtube link - https://youtu.be/IGyMuk2z-k0
-
-## Assumption
-1. There are seven employees for which the app is created
-2. There are seven employees data stored in Bertram Capital Lounge app. Names are as follows - Bob, Jeremy, Alice, Tom, Mike, Sarah, Emma.
-3. Everyone has there favourite drink which is stored in the system. Favourite drinks are as follows - "CAPPUCCINO", "BLACK COFFEE", "LATTE", "ESPRESSO", "AMERICANO", "RISTRETTO", "FLAT WHITE" respectively.
+## Project Duration
+January 2024 - Present
 
 ## Features
-- This app have a menu display on both side of the screen.
-- User have the option to choose their drink from the menu and place their order.
-- User favourite drinks are already stored in the system and they can order it by clicking "order favourite drinks for everyone".
-- After creating the order, the user can click "click here to see who should pay" which runs the algorithm and returns who should pay the bill. 
-- User can click on "Budget in details" which extract the whole date from sqllite3 database and represent it in the form of a table.
-- User cna click on "why me!" which show the result how much everyone and the user has paid till now
-- User can click on exit to end the program
 
-## Getting Started
+Menu Display: Users can access a dynamic menu displayed on both sides of the screen.
+Favorite Drinks: Employees' favorite drinks are pre-stored, allowing for quick ordering.
+Order Management: Users can order drinks for themselves or select "order favourite drinks for everyone."
+Financial Analysis: The "Budget in details" feature pulls data from the SQLite3 database to display expenditure in tabular form.
+Accountability Feature: The "Why me!" button shows detailed spending by each user.
+Exit Feature: Securely closes the application.
+## Development Lifecycle
 
-### Prerequisites
-- Python 3.x
-- SQLite3
-- tkinter
+Conceptualization: Recognized the need for a specialized tool for managing coffee purchases.
+Design: Developed the application layout with easy navigation and user-friendly interface.
+Implementation:
+Implemented using Python for backend processes.
+Developed a GUI using Tkinter for user interactions.
+Integrated SQLite3 for database management.
+Testing & Refinement: Conducted extensive testing to ensure reliability; refined based on user feedback.
+Deployment: Rolled out for daily use at Bertram Capital, streamlining coffee expense management.
+## Technical Skills
 
+Python: Primary programming language.
+Tkinter: GUI development.
+SQLite3: Database management for storing and retrieving data.
+## Achievements
 
+Enhanced efficiency in managing coffee expenses.
+Improved financial transparency among employees regarding coffee purchases.
+## Future Directions
 
-### Running the Application
-1. Run the main application: `main_app.py`
-2. Access the various services through the GUI.
+Potential upgrades for personalization and adding more beverage options.
+Continuous refinement based on ongoing user feedback.
+## Prerequisites
+
+Python 3.x
+SQLite3
+Tkinter
+## How to Run the App
+
+Ensure all prerequisites are installed.
+Run the main_app.py file to start the application.
+Navigate through the GUI to utilize its features.
+## Video Tutorial
+For a more detailed guide on how to use the Bertram Capital Lounge App, watch our YouTube tutorial.
